@@ -6,10 +6,10 @@ Projeto produzido colocando em prática algumas das tecnologias em que estou est
 
 ## 💻Tecnologias
 
-HTML
-CSS
-JavaScript
-Git e GitHub
+-HTML
+-CSS
+-JavaScript
+-Git e GitHub
 
 ## Aprendizados
 
