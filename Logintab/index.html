@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="login-wrapper">
+        <span class="login-side">
+            <form class="my-form">
+                <div class="login-welcome-row">
+                    <h1>Bem vindo(a) de volta!</h1>
+                    <p>Por favor, insira suas credenciais.</p>
+                </div>
+
+                <div class="socials-row">
+                    <a href="#" title="Use Google">
+                        <img src="assets/google.png" alt="Google">
+                        Log in with Google
+                    </a>
+                    <a href="#" title="Use Github">
+                        <img src="assets/github.png" alt="Github">
+                        Log in with Github
+                    </a>
+                </div>
+
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    Ou
+                    <span class="divider-line"></span>
+                </div>
+                <div class="text-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    <img src="assets/email.svg" alt="Email Icon" title="Email Icon">
+                </div>
+
+                <div class="text-field">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" placeholder="Sua senha"
+                        title="Mínimo 6 dígitos incluindo uma letra e um número"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$">
+                    <img src="assets/password.svg" alt="Password Icon" title="Password Icon">
+                </div>
+
+                <input type="submit" class="my-form_button" value="Login" />
+                <div class="my-form_actions">
+                    <div class="my-form_row">
+                        <span>Esqueceu sua senha?</span>
+                        <a href="#" title="Restaurar senha">
+                            Restaurar senha
+                        </a>
+                    </div>
+                    <div class="my-form_signup">
+                        <a href="#" title="Criar conta">Criar conta</a>
+                    </div>
+                </div>
+            </form>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
